@@ -7,7 +7,7 @@ const mytoken   =   ''
 fetch(URL, {
   method: "POST",
   headers: {
-    "Authorization": `Bearer ${mytoken.replace(/=/g, "")}`,
+    "Authorization": `Bearer ${mytoken}`,
     "Content-Type": "application/json",
   },
   body: JSON.stringify({
