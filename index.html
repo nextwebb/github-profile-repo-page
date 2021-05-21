@@ -1,163 +1,168 @@
 <!DOCTYPE html>
-<html   lang="en">
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Github profile: Tolu Adegboyega</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      media="screen"
+      href="css/style.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-    <head>
-        <meta charset="utf-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Github profile: Tolu Adegboyega </title>
-        <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    </head>
+  <body>
+    <nav class="nav-bar">
+      <div class="menu" id="js-navbar-toggle">
+        <i class="fas fa-bars"></i>
+      </div>
+      <div class="nav-one">
+        <i class="fab fa-github"></i>
+        <div class="nav-search">
+          <input placeholder="Search or jump to..." />
+          <span>/</span>
+        </div>
+        <ul>
+          <li>Pull requests</li>
+          <li>Issues</li>
+          <li>Marketplace</li>
+          <li>Explore</li>
+        </ul>
+      </div>
+      <div class="nav-two">
+        <i class="fas fa-bell"></i>
+        <div class="add">
+          <i class="fas fa-plus"></i>
+          <i class="fas fa-caret-down"></i>
+        </div>
+        <div class="avatar">
+          <img src="" class="avatar-img" />
+          <i class="fas fa-caret-down"></i>
+        </div>
+      </div>
+    </nav>
 
-    <body>
+    <div class="mobile-nav" id="js-menu">
+      <div class="nav-search">
+        <input placeholder="Search or jump to..." />
+        <span>/</span>
+      </div>
+      <ul>
+        <li>Dashboard</li>
+        <li>Pull requests</li>
+        <li>Issues</li>
+        <li>Marketplace</li>
+        <li>Explore</li>
+      </ul>
+      <div class="mobile-avatar">
+        <img src="" class="mobile-avatar-img" />
+        <p>Nextwebb</p>
+      </div>
+      <div class="sign-out">
+        <i class="fas fa-sign-out-alt"></i>
+        <p>Sign out</p>
+      </div>
+    </div>
 
-        <nav   class="nav-bar" >
-            <div class="menu"   id="js-navbar-toggle">
-                <i class="fas fa-bars"></i>
+    <div class="container">
+      <div class="container-one">
+        <div class="" id="img">
+          <img src="" />
+        </div>
+        <div class="smile-icon">
+          <i class="far fa-smile"></i>
+        </div>
+        <div class="" id="info">
+          <div id="name"></div>
+          <div id="login"></div>
+          <div class="set-status">
+            <i class="far fa-smile"></i>
+            Set Status
+          </div>
+          <div id="bio"></div>
+          <div class="edit-profile">Edit Profile</div>
+          <div class="follow">
+            <div class="follower-wrap">
+              <i class="fas fa-user-friends"></i>
+              <div id="follower"></div>
+              <p>followers</p>
             </div>
-            <div   class="nav-one" >
-                <i class="fab fa-github"></i>
-                <div   class="nav-search" >
-                    <input   placeholder="Search or jump to..."   />
-                    <span>/</span>
-                </div>        
-                    <ul>
-                        <li>Pull  requests</li>
-                        <li>Issues</li>
-                        <li>Marketplace</li>
-                        <li>Explore</li>
-                    </ul>
+            <i class="fas fa-circle"></i>
+            <div class="following-wrap">
+              <div id="following"></div>
+              <p>following</p>
             </div>
-            <div    class="nav-two">
-                <i class="fas fa-bell"></i>
-                <div  class="add"  >
-                    <i class="fas fa-plus"></i>
-                    <i class="fas fa-caret-down"></i>
-                </div>
-                <div  class="avatar"  >
-                    <img  src=""  class="avatar-img" />
-                    <i class="fas fa-caret-down"></i>
-                </div>
-            </div>
-            
-        </nav>
+          </div>
+          <div class="blog-wrapper">
+            <i class="fas fa-link"></i>
+            <a id="blog" href="https://blog.nextwebb.tech">
+              https://blog.nextwebb.tech</a
+            >
+          </div>
+        </div>
+      </div>
 
-        <div  class="mobile-nav"  id="js-menu">
-            <div   class="nav-search" >
-                <input   placeholder="Search or jump to..."   />
-                <span>/</span>
-            </div>        
-            <ul>
-                <li>Dashboard</li>
-                <li>Pull  requests</li>
-                <li>Issues</li>
-                <li>Marketplace</li>
-                <li>Explore</li>
-            </ul>
-            <div  class="mobile-avatar"  >
-                <img  src=""  class="mobile-avatar-img" />
-                <p>ToluAdegboyega</p>
+      <div class="container-two">
+        <div class="container-heading">
+          <div class="two-heading">
+            <i class="fas fa-book-open"></i>
+            <h1 class="repos-title-grey">Overview</h1>
+          </div>
+          <div class="two-heading-repo">
+            <i class="fas fa-book"></i>
+            <h1 class="repos-title">Repositories</h1>
+            <div id="num-repos">
+              <p>22</p>
             </div>
-            <div  class="sign-out"  >
-                <i class="fas fa-sign-out-alt"></i>
-                <p>Sign out</p>
-            </div>
+          </div>
+          <div class="two-heading">
+            <i class="fas fa-poll"></i>
+            <h1 class="repos-title-grey">Projects</h1>
+          </div>
+          <div class="two-heading">
+            <i class="fas fa-cube"></i>
+            <h1 class="repos-title-grey">Packages</h1>
+          </div>
         </div>
 
-        <div class="container">
-            <div class="container-one" >
-                <div class="" id="img">
-                    <img src="" />
-                </div>
-                <div class="smile-icon">
-                    <i class="far fa-smile"></i>
-                </div>
-                <div class="" id="info">
-                    <div id="name"></div>
-                    <div id="login"></div>
-                    <div   class="set-status" >
-                        <i class="far fa-smile"></i>
-                        Set Status
-                    </div>
-                    <div id ="bio"></div>
-                    <div    class="edit-profile">
-                        Edit    Profile
-                    </div>
-                    <div class="follow" >
-                        <div class="follower-wrap" >
-                            <i class="fas fa-user-friends"></i>
-                            <div id="follower"></div> <p> followers </p>
-                        </div>
-                        <i class="fas fa-circle"></i>
-                        <div class="following-wrap" > 
-                            <div id="following"> </div> <p> following </p>
-                        </div>
-                    </div>
-                    <div class="blog-wrapper" >
-                        <i class="fas fa-link"></i>
-                        <a id="blog"  href="https://blog.nextwebb.tech"> https://blog.nextwebb.tech</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="container-two">
-
-                <div class="container-heading">
-                    <div class="two-heading">
-                        <i class="fas fa-book-open"></i>
-                        <h1 class="repos-title-grey">Overview</h1>
-                    </div>
-                    <div class="two-heading-repo">
-                        <i class="fas fa-book"></i>
-                        <h1 class="repos-title">Repositories</h1>
-                        <div id="num-repos">
-                            <p>22</p>
-                        </div>
-                    </div>
-                    <div class="two-heading">
-                        <i class="fas fa-poll"></i>
-                        <h1 class="repos-title-grey">Projects</h1>
-                    </div>
-                    <div class="two-heading">
-                        <i class="fas fa-cube"></i>
-                        <h1 class="repos-title-grey">Packages</h1>
-                    </div>
-                </div>
-
-                <div class="repo-search">
-                    <input placeholder="Find a repository..." />
-                    <div  class="new-repo"> <i class="fas fa-book"></i>   New </div>
-                </div>
-                
-            </div>  
-          
+        <div class="repo-search">
+          <input placeholder="Find a repository..." />
+          <div class="new-repo"><i class="fas fa-book"></i> New</div>
         </div>
+      </div>
+    </div>
 
-        <footer    class="footer" >
-            <div  class="footer-logo"  >
-                <i class="fab fa-github"></i>
-            </div>
-            <div   class="footer-copyright" >
-                © 2020 GitHub, Inc.
-            </div>
-            <div  class="footer-list"  >
-                <a href="#" >Terms</a>
-                <a href="#" >Privacy</a>
-                <a href="#" >Security</a>
-                <a href="#" >Status</a>
-                <a href="#" >Help</a>
-                <a href="#" >Contact GitHub</a>
-                <a href="#" >Pricing</a>
-                <a href="#" >API</a>
-                <a href="#" >Training</a>
-                <a href="#" >Blog</a>
-                <a href="#" >About</a>
-            </div>
-        </footer>
-        
-        <script src="https://kit.fontawesome.com/0ca43f027b.js" crossorigin="anonymous"></script>
-        <script src="js/script.js"></script>
-    </body>
+    <footer class="footer">
+      <div class="footer-logo">
+        <i class="fab fa-github"></i>
+      </div>
+      <div class="footer-copyright">© 2020 GitHub, Inc.</div>
+      <div class="footer-list">
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+        <a href="#">Security</a>
+        <a href="#">Status</a>
+        <a href="#">Help</a>
+        <a href="#">Contact GitHub</a>
+        <a href="#">Pricing</a>
+        <a href="#">API</a>
+        <a href="#">Training</a>
+        <a href="#">Blog</a>
+        <a href="#">About</a>
+      </div>
+    </footer>
+
+    <script
+      src="https://kit.fontawesome.com/0ca43f027b.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
 </html>
