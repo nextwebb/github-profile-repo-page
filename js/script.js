@@ -2,7 +2,7 @@ const URL = "https://api.github.com/graphql";
 
 //token used with regex
 
-const mytoken   =   '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'
+const mytoken   =   ${{ secrets.GITHUB_TOKEN_KEY }}
 
 fetch(URL, {
   method: "POST",
