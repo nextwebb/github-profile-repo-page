@@ -2,7 +2,7 @@ const URL = "https://api.github.com/graphql";
 
 //token used with regex
 
-const mytoken   =   '=d=1=0=a=a=a=7=3=3=4=2=7=6=1=a=1=6=a=1=5=b=f=8=a=4=4=8=6=e=9=c=d=8=a=1=d=7=0=4=0='
+const mytoken   =   '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'
 
 fetch(URL, {
   method: "POST",
